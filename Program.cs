@@ -15,6 +15,7 @@ namespace csharp_oop_practice
             university.AddStudent(new Student("Maria Perechrest", new Knowledge(60)));
 
             Internship internship = new Internship("Interlink");
+            internship.addInterns(university);
             Console.WriteLine("List of internship's students:");
             Console.WriteLine(internship.GetStudents());
         }
